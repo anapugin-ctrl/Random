@@ -1,1 +1,38 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Sorteador de números</h1>
+        <p>Informe os limites inferior e superior do sorteio</p>
+        <label for="limiteInferior">Limite inferior:</label>
+        <input type="number" step="1" id="limiteInferior> 
+        <br><br>
+
+         <label for="limiteSuperior">Limite Superior:</label>
+        <input type="number" step="1" id="limiteSuperior">
+        <br><br>
+
+        <button onclick="sortearNumero()">Sortear um Número</button>
+
+        <p id="resultado">0 resultado aparecerá Aqui!</p>
+        <script>
+            function sortearNumero() {
+                const textoInferior = document.getElementById("limiteInferior").value;
+                const textoSuperior = document.getElementById("limiteSuperior").value;
+
+                const limiteInferior = Number(textoInferior);
+                const limiteSuperior = Number(textoSuperior);
+
+                const number
+            }
+        </script>
+    </main>
+</body>
+</html>
